@@ -42,29 +42,3 @@ public class PermutationString
 	
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*   
-  * Create a function permute() with parameters as input string, starting index of the string, ending index of the string
-    1.Call this function with values input string, 0, size of string – 1
-    2.In this function, if the value of  L and R is the same then print the same string
-    3.Else run a for loop from L to R and swap the current element in the for loop with the inputString[L]
-    4.Then again call this same function by increasing the value of L by 1
-    5.After that again swap the previously swapped values to initiate backtracking
-    
-	Link-: https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
-*/
